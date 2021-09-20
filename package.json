@@ -1,5 +1,5 @@
 {
-  "name": "@marginswap/sdk",
+  "name": "@leverdex/sdk",
   "license": "MIT",
   "version": "4.4.6",
   "description": "🛠 An SDK for building applications on top of marginswap.",
