@@ -1,9 +1,9 @@
 import { Contract } from '@ethersproject/contracts';
 import { getAddresses } from '../addresses';
 import { ChainId } from '../constants';
-import Staking from '@marginswap/core-abi/artifacts/contracts/Staking.sol/Staking.json';
-import MFIStaking from '@marginswap/core-abi/artifacts/contracts/MFIStaking.sol/MFIStaking.json';
-import LiquidityMiningReward from '@marginswap/core-abi/artifacts/contracts/LiquidityMiningReward.sol/LiquidityMiningReward.json';
+import Staking from '@leverdex/core-abi/artifacts/contracts/Staking.sol/Staking.json';
+import MFIStaking from '@leverdex/core-abi/artifacts/contracts/MFIStaking.sol/MFIStaking.json';
+import LiquidityMiningReward from '@leverdex/core-abi/artifacts/contracts/LiquidityMiningReward.sol/LiquidityMiningReward.json';
 import { Provider, TransactionReceipt } from '@ethersproject/abstract-provider';
 import { BigNumber } from '@ethersproject/bignumber';
 import UniswapV2Pair from '@uniswap/v2-core/build/UniswapV2Pair.json';

@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts';
-import LendingCore from '@marginswap/core-abi/artifacts/contracts/Lending.sol/Lending.json';
-import PriceAware from '@marginswap/core-abi/artifacts/contracts/PriceAware.sol/PriceAware.json';
+import LendingCore from '@leverdex/core-abi/artifacts/contracts/Lending.sol/Lending.json';
+import PriceAware from '@leverdex/core-abi/artifacts/contracts/PriceAware.sol/PriceAware.json';
 import { getNetwork } from '@ethersproject/networks';
 import { BaseProvider, getDefaultProvider, TransactionReceipt } from '@ethersproject/providers';
 import { ChainId } from '../constants';

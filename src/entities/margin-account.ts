@@ -1,8 +1,8 @@
 import { Contract } from '@ethersproject/contracts';
-import CrossMarginTrading from '@marginswap/core-abi/artifacts/contracts/CrossMarginTrading.sol/CrossMarginTrading.json';
-import MarginRouter from '@marginswap/core-abi/artifacts/contracts/MarginRouter.sol/MarginRouter.json';
-import PriceAware from '@marginswap/core-abi/artifacts/contracts/PriceAware.sol/PriceAware.json';
-import CrossMarginAccounts from '@marginswap/core-abi/artifacts/contracts/CrossMarginAccounts.sol/CrossMarginAccounts.json';
+import CrossMarginTrading from '@leverdex/core-abi/artifacts/contracts/CrossMarginTrading.sol/CrossMarginTrading.json';
+import MarginRouter from '@leverdex/core-abi/artifacts/contracts/MarginRouter.sol/MarginRouter.json';
+import PriceAware from '@leverdex/core-abi/artifacts/contracts/PriceAware.sol/PriceAware.json';
+import CrossMarginAccounts from '@leverdex/core-abi/artifacts/contracts/CrossMarginAccounts.sol/CrossMarginAccounts.json';
 import { Signer } from '@ethersproject/abstract-signer';
 import { Provider, TransactionReceipt } from '@ethersproject/abstract-provider';
 import { getAddresses } from '../addresses';

@@ -18,7 +18,7 @@ export type DeploymentAddresses = {
   Staking: string;
 };
 
-const addresses: Record<string, DeploymentAddresses> = require('@marginswap/core-abi/addresses.json');
+const addresses: Record<string, DeploymentAddresses> = require('@leverdex/core-abi/addresses.json');
 
 export function getAddresses(chainId: ChainId): DeploymentAddresses {
   if (!addresses[chainId]) {
